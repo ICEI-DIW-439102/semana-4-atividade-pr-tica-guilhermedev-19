@@ -8,19 +8,20 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Guilherme Enzo A. Ferreira
+- Matricula: 882296
+- Proposta de projeto escolhida: Coleções e Itens
+- Breve descrição sobre seu projeto: Um site tipo pinterest que a pessoa possa baixar fotos e compartilha-lás.
 
 
 ## Print do(s) wireframe(s) criado
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar. 
 
-<<  COLOQUE A IMAGEM AQUI >>
 
 
+![Wireframe Excalidraw](printexcali.png)
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+![FOTO DA PAGINA PRINCIPAL](fotoprincipal.jpeg)
+
