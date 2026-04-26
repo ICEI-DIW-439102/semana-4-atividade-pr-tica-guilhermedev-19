@@ -7,64 +7,68 @@
 
 .cabecalho {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   border-bottom: 2px solid #4a4a8c;
   background-color: #f5f5ff;
-  position: relative;
 }
 
-.logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+.logo .imagem-logo {
+  height: 60px;
 }
 
-.imagem-logo {
-  height: 80px;
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4a4a8c;
+  font-weight: bold;
 }
 
-.botao-menu {
-  margin: 0 5px;
-  padding: 8px 15px;
-  cursor: pointer;
-  background-color: #4a4a8c;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
+.banner {
+  text-align: center;
+  margin: 30px 0;
 }
 
-.principal {
-  padding: 30px;
-  background-color: #fafafa;
+.imagem-banner {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 700px;
+  border-radius: 8px;
 }
 
-.secao-pesquisa {
-  margin-bottom: 30px;
+.secao-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
 }
 
-.campo-input {
-  padding: 10px;
-  width: 220px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.card-info {
+  width: 200px;
+  padding: 20px;
+  background-color: #f5f5ff;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
-.botao {
-  padding: 8px 15px;
-  background-color: #4a4a8c;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.card-info h3 {
+  margin-bottom: 8px;
+  color: #4a4a8c;
+}
+
+.card-info p {
+  font-size: 14px;
+  color: #555;
 }
 
 .galeria {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .cartao {
@@ -98,6 +102,15 @@
   margin-top: 12px;
 }
 
+.botao {
+  padding: 6px 12px;
+  background-color: #4a4a8c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .rodape {
   margin-top: 40px;
   padding: 15px;
@@ -105,4 +118,24 @@
   border-top: 2px solid #4a4a8c;
   background-color: #f5f5ff;
   color: #333;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .secao-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-info {
+    margin-bottom: 20px;
+  }
+
+  .galeria {
+    justify-content: center;
+  }
 }
